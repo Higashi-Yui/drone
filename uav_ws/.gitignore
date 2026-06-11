@@ -1,0 +1,67 @@
+# =========================
+# ROS & Catkin Build 目录
+# =========================
+# 如果你的 Git 仓库是在工作空间根目录，这些是必填项
+build/
+devel/
+install/
+logs/
+.catkin_tools/
+.catkin_workspace
+compile_commands.json
+
+# =========================
+# C++ & CMake 编译产物
+# =========================
+# 尽管 catkin build 是外部编译（out-of-source），
+# 但以防万一你或你的 IDE 意外触发了内部编译
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.app
+
+# =========================
+# Python 缓存与生成的包
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.tox/
+.coverage
+htmlcov/
+
+# =========================
+# 常见 IDE 与编辑器配置
+# =========================
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Vim / Emacs
+*.swp
+*~
+*.swo
+
+# =========================
+# 操作系统生成文件
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+   <node name="control_vel" pkg="control_prj" type="control_prj" output="screen" />
+
+</launch>

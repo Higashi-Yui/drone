@@ -1,0 +1,59 @@
+# =========================
+# ROS 工作空间目录
+# =========================
+# 如果你的 Git 仓库是在工作空间根目录（比如 uav_ws），必须忽略这三个
+build/
+devel/
+install/
+
+# 如果你的 Git 仓库是在 src 目录下，catkin_make 会在这里生成这个标记文件
+.catkin_workspace
+
+# =========================
+# C++ & CMake 编译产物
+# =========================
+# 尽管 catkin_make 默认把产物放在 workspace/build 下，
+# 但以防 IDE（如 CLion）或误操作在包目录内触发了内部编译
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.app
+compile_commands.json
+
+# =========================
+# Python 缓存与生成的包
+# =========================
+# 运行 Python 节点时自动生成的字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.tox/
+
+# =========================
+# 常见 IDE 与编辑器配置
+# =========================
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Vim / Emacs
+*.swp
+*~
+*.swo
+
+# =========================
+# 操作系统生成文件
+# =========================
+.DS_Store
+Thumbs.db

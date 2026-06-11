@@ -1,0 +1,34 @@
+# ROS build output
+build/
+devel/
+install/
+log/
+.logs/
+.catkin_tools/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ROS bag and logs
+*.bag
+*.log
+
+# temporary files
+*.tmp
+*.swp
+*~
+
+# editor
+.vscode/
+.idea/
+
+# system files
+.DS_Store
+Thumbs.db
