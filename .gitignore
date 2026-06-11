@@ -1,19 +1,19 @@
 # ROS build output
-build/
-devel/
-install/
-log/
+**/build/
+**/devel/
+**/install/
+**/log/
 .logs/
-.catkin_tools/
+**/.catkin_tools/
 
 # CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
 
 # Python cache
-__pycache__/
+**/__pycache__/
 *.pyc
 
 # ROS bag and logs
