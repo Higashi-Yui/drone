@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <!-- 启动第一个节点：vins_ego -->
-   <node name="vins_to_mavros" pkg="bridge" type="bridge" output="screen" />
+    
+    <node pkg="bridge" type="bridge_node" name="vins_to_mavros" output="screen"/>
 
 </launch>
