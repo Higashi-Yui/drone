@@ -26,7 +26,7 @@ constexpr int TAKEOFF_HOLD_TICKS = 20;
 constexpr int WAYPOINT_HOLD_TICKS = 30;
 constexpr int RETURN_HOLD_TICKS = 20;
 
-constexpr double DEFAULT_CRUISE_HEIGHT = 1.20;
+constexpr double DEFAULT_CRUISE_HEIGHT = 0.8;
 constexpr double LAND_TARGET_REL_Z = -0.20;
 
 constexpr double POSITION_TOLERANCE = 0.10;
