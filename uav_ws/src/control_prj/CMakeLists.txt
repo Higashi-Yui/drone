@@ -215,7 +215,8 @@ add_executable(traj src/control_traj)
 
 target_link_libraries(traj  ${catkin_LIBRARIES}
 )
-# add_executable(tst src/test)
 
-# target_link_libraries(tst  ${catkin_LIBRARIES}
-# )
+add_executable(temp src/trial)
+
+target_link_libraries(temp  ${catkin_LIBRARIES}
+)
